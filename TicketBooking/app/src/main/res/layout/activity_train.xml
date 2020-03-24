@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorA"
+    tools:context=".BusActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:text="   Choos Your Plane"
+        android:textColor="@color/color"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:layout_marginTop="180dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/trainFromText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From:"
+            android:textColor="@color/color"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trainToText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To:"
+            android:textColor="@color/color"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trainTotalSit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Sit:"
+            android:textColor="@color/color"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trainTimeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time:"
+            android:textColor="@color/color"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trainDateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textColor="@color/color"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/trainDoneBUtton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGreen"
+            android:text="Done"
+            android:textSize="35dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
